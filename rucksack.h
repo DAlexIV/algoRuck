@@ -9,16 +9,13 @@
 #ifndef RRRRRR_HEADER_H
 #define RRRRRR_HEADER_H
 
-
-
-
 /**
  * Class that contains main methods for solving the problem
  * and for testing these methods
  */
 class rucksack {
     std::vector<in_params> data; // All tests
-private:
+public:
     /**
      * Method that uses iterable bruteforce over with callback
      * in_params *par - reference to input params for this test run
@@ -46,8 +43,6 @@ private:
      * Returns out_params as a result of test run
      */
     static out_params *greedy_algo(in_params *par);
-
-public:
     /**
      * Default constructor (initialize input data from file)
      */

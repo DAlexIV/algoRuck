@@ -1,10 +1,21 @@
 #include <iostream>
-#include "header.h"
+#include "rucksack.h"
 
-void out_params::write_number_test_to_file(int n) {
+out_params* rucksack::run_over_iter(in_params *par) {
 
 }
 
+out_params* rucksack::run_over_rec(in_params *par) {
+
+}
+
+out_params* rucksack::dynamic(in_params *par) {
+
+}
+
+out_params* rucksack::greedy_algo(in_params *par) {
+
+}
 void rucksack::test_one(int test_n, in_params* par, out_params* (*ptr)(in_params*)) {
     out_params* result = ptr(par);
     out_params::write_number_test_to_file(test_n);
@@ -26,6 +37,7 @@ void rucksack::test() {
     }
 
 }
+
 
 using namespace std;
 

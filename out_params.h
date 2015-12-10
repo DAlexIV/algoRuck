@@ -10,11 +10,6 @@
 /**
  * Represents output parameters for each test
  */
-
-
-
-
-
 class out_params {
     std::string method_name; // Name of method used
     int time; // Time elapsed
