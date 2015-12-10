@@ -50,6 +50,12 @@ public:
      * Writes one out_params instance to file
      */
     static void write_test_to_file(out_params par);
+
+    /**
+    * Writes number of done test into file
+    * int n - number of tests
+    */
+    static void write_number_test_to_file(int n);
 };
 
 /**
@@ -64,27 +70,28 @@ private:
      * in_params *par - reference to input params for this test run
      * Returns out_params as a result of test run
      */
-    out_params *run_over_iter(in_params *par);
+    static out_params *run_over_iter(in_params *par);
+
     /**
      * Method that uses recursive bruteforce  with callback
      * in_params *par - reference to input params for this test run
      * Returns out_params as a result of test run
      */
-    out_params *run_over_rec(in_params *par);
+    static out_params *run_over_rec(in_params *par);
 
     /**
      * Method that uses dynamic programming
      * in_params *par - reference to input params for this test run
      * Returns out_params as a result of test run
      */
-    out_params *dynamic(in_params *par);
+    static out_params *dynamic(in_params *par);
 
     /**
      * Method that uses recursive greedy algorithm
      * in_params *par - reference to input params for this test run
      * Returns out_params as a result of test run
      */
-    out_params *greedy_algo(in_params *par);
+    static out_params *greedy_algo(in_params *par);
 
 public:
     /**
@@ -92,11 +99,6 @@ public:
      */
     rucksack();
 
-    /**
-     * Writes number of done test into file
-     * int n - number of tests
-     */
-    void write_number_test_to_file(int n);
 
     /**
      * Tests one particular dataset of params on one particular
