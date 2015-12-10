@@ -14,6 +14,7 @@ out_params* rucksack::dynamic(in_params *par) {
 }
 
 out_params* rucksack::greedy_algo(in_params *par) {
+    in_params params = new in_params(par);
 
 }
 void rucksack::test_one(int test_n, in_params* par, out_params* (*ptr)(in_params*)) {
