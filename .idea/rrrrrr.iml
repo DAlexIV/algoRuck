@@ -4,7 +4,11 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/header.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/in_params.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/in_params.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/out_params.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/out_params.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/source.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/source.h" isTestSource="false" />
     </content>

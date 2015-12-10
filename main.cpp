@@ -2,6 +2,7 @@
 #include "header.h"
 
 void out_params::write_number_test_to_file(int n) {
+
 }
 
 void rucksack::test_one(int test_n, in_params* par, out_params* (*ptr)(in_params*)) {

@@ -3,60 +3,14 @@
 //
 #include <vector>
 #include <string>
+#include "in_params.h"
+#include "out_params.h"
 
 #ifndef RRRRRR_HEADER_H
 #define RRRRRR_HEADER_H
 
-/**
- * Represents input parameters for each test
- */
-class in_params {
-    int overall_w; // Overall weight of rucksack
-    int n; // Number of available items
-    std::vector<int> w; // Weight for each item
-    std::vector<int> cost; // Cost for each item
-public:
-    /**
-     * Default constructor
-     */
-    in_params(int overall_w, int n, std::vector<int> w, std::vector<int> cost);
 
-    /**
-     * Reads ALL params from file
-     * Returns vector of params
-     */
-    static std::vector<in_params> read_in_params_from_file();
 
-};
-
-/**
- * Represents output parameters for each test
- */
-class out_params {
-    std::string method_name; // Name of method used
-    int time; // Time elapsed
-    int weight; // Weight gained
-    int cost; // Cost gained
-    std::vector<int> nums; // Numbers of used items
-    std::vector<int> w; // Weight of these items
-    std::vector<int> c; // Cost of these items
-public:
-    /**
-     * Default constructor
-     */
-    out_params(int time, int weight, int cost, std::vector<int> nums, std::vector<int> w, std::vector<int> c);
-
-    /**
-     * Writes one out_params instance to file
-     */
-    static void write_test_to_file(out_params par);
-
-    /**
-    * Writes number of done test into file
-    * int n - number of tests
-    */
-    static void write_number_test_to_file(int n);
-};
 
 /**
  * Class that contains main methods for solving the problem
