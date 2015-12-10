@@ -6,6 +6,7 @@
 #define RRRRRR_OUT_PARAMS_H
 #include <vector>
 #include <string>
+#include "item.h"
 
 /**
  * Represents output parameters for each test
@@ -16,13 +17,11 @@ public:
     int time; // Time elapsed
     int weight; // Weight gained
     int cost; // Cost gained
-    std::vector<int> nums; // Numbers of used items
-    std::vector<int> w; // Weight of these items
-    std::vector<int> c; // Cost of these items
+    std::vector<item> items; // Items
     /**
      * Default constructor
      */
-    out_params(int time, int weight, int cost, std::vector<int> nums, std::vector<int> w, std::vector<int> c);
+    out_params(int time, int weight, int cost, std::vector<item> items);
 
     /**
      * Writes one out_params instance to file

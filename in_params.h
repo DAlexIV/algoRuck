@@ -5,6 +5,7 @@
 #ifndef RRRRRR_IN_PARAMS_H
 #define RRRRRR_IN_PARAMS_H
 #include <vector>
+#include "item.h"
 
 /**
  * Represents input parameters for each test
@@ -13,12 +14,12 @@ class in_params {
 public:
     int overall_w; // Overall weight of rucksack
     int n; // Number of available items
-    std::vector<int> w; // Weight for each item
-    std::vector<int> cost; // Cost for each item
+    std::vector<item> items; // Items
+
     /**
      * Default constructor
      */
-    in_params(int overall_w, int n, std::vector<int> w, std::vector<int> cost);
+    in_params(int overall_w, int n, std::vector<item> items);
 
     /**
      * Copy constructor
