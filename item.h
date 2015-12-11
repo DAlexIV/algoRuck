@@ -13,6 +13,7 @@ private:
     int cost;
 
 public:
+    item() {}
     item(int id, int w, int cost) : id(id), w(w), cost(cost) { }
 
     int getId() const {

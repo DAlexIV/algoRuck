@@ -5,6 +5,8 @@
 #ifndef RRRRRR_IN_PARAMS_H
 #define RRRRRR_IN_PARAMS_H
 #include <vector>
+#include <string>
+#include <fstream>
 #include "item.h"
 
 /**
@@ -15,6 +17,8 @@ public:
     int overall_w; // Overall weight of rucksack
     int n; // Number of available items
     std::vector<item> items; // Items
+
+    in_params() { }
 
     /**
      * Default constructor

@@ -21,7 +21,7 @@ public:
     /**
      * Default constructor
      */
-    out_params(int time, int weight, int cost, std::vector<item> items);
+    out_params(std::string name, int time, int weight, int cost, std::vector<item> items);
 
     /**
      * Writes one out_params instance to file
