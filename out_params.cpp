@@ -4,19 +4,32 @@
 
 #include "out_params.h"
 #include <iostream>
-void out_params::write_number_test_to_file(int n) {
+#include <fstream>
 
+void out_params::write_number_test_to_file(int n) {
+    std::ofstream myfile;
+    myfile.open("/home/dalexiv/clionProjects/rrrrrr/output_knap.txt", std::ios::app);
+    myfile << n << std::endl;
+    myfile.close();
 }
 
 void out_params::write_test_to_file(out_params par) {
-    for (int i = 0; i < par.items.size(); ++i)
-        std::cout << par.items[i].getId() << " ";
+    std::ofstream myfile;
+    myfile.open("/home/dalexiv/clionProjects/rrrrrr/output_knap.txt", std::ios::app);
+    myfile << "Time elapsed "<< par.time << " seconds" << std::endl;
+    myfile << "Backpack weight "<< par.weight << std::endl;
+    myfile << "Backpack cost "<< par.cost << std::endl;
+    for (auto &item : par.items) {
+        myfile << "{id = " << item.getId() << ", w = " << item.getW()
+            << ", cost = " << item.getCost() << "}" << std::endl;
+    }
+    myfile.close();
 }
 
 out_params::out_params(std::string name, int time, int weight, int cost, std::vector<item> items) {
-        this->method_name = name;
-        this->time = time;
-        this->weight = weight;
-        this->cost = cost;
-        this->items = items;
+    this->method_name = name;
+    this->time = time;
+    this->weight = weight;
+    this->cost = cost;
+    this->items = items;
 }

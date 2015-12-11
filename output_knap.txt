@@ -1,0 +1,8 @@
+1
+Time elapsed 0 seconds
+Backpack weight 19
+Backpack cost 5
+{id = 0, w = 10, cost = 1}
+{id = 3, w = 9, cost = 4}
+{id = 1, w = 11, cost = 10}
+{id = 2, w = 12, cost = 11}
