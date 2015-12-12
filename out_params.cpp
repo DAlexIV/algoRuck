@@ -9,7 +9,7 @@
 void out_params::write_number_test_to_file(int n) {
     std::ofstream myfile;
     myfile.open("/home/dalexiv/clionProjects/rrrrrr/output_knap.txt", std::ios::app);
-    myfile << n << std::endl;
+    myfile << "Test " << n + 1 << std::endl;
     myfile.close();
 }
 
