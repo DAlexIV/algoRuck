@@ -82,7 +82,7 @@ out_params *rucksack::greedy_algo(in_params *par) {
         inline bool operator()(const item &item1, const item &item2) {
             double prod1 = (double) item1.getCost() / item1.getW();
             double prod2 = (double) item2.getCost() / item2.getW();
-            return prod1 < prod2;
+            return prod1 > prod2;
         }
     };
     std::sort(params.items.begin(), params.items.end(), my_comparator());
