@@ -14,14 +14,14 @@
 class out_params {
 public:
     std::string method_name; // Name of method used
-    int time; // Time elapsed
+    double time; // Time elapsed
     int weight; // Weight gained
     int cost; // Cost gained
     std::vector<item> items; // Items
     /**
      * Default constructor
      */
-    out_params(std::string name, int time, int weight, int cost, std::vector<item> items);
+    out_params(std::string name, double time, int weight, int cost, std::vector<item> items);
 
     /**
      * Writes one out_params instance to file

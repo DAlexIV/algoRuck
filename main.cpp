@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <sstream>
+#include <ctime>
 #include "rucksack.h"
 
 
@@ -61,15 +62,16 @@ out_params *rucksack::run_over_rec(in_params *par) {
         }
     };
 
+    unsigned int start = clock();
     run_over_implementation run = run_over_implementation(par);
     run.start_recursion();
     std::vector<item> items_to_go = std::vector<item>();
     for (int i = 0; i < par->n; ++i)
         if (run.getBestItems()[i])
             items_to_go.push_back(par->items[i]);
-    out_params *my_exit_params = new out_params("Running over with recursion",
-                                                0, run.getBestW(), run.getBestCost(), items_to_go);
-    return my_exit_params;
+    unsigned int end = clock();
+    return new out_params("Running over with recursion",
+                          double(end - start) / CLOCKS_PER_SEC, run.getBestW(), run.getBestCost(), items_to_go);
 }
 
 out_params *rucksack::dynamic(in_params *par) {
@@ -85,6 +87,7 @@ out_params *rucksack::greedy_algo(in_params *par) {
             return prod1 > prod2;
         }
     };
+    unsigned int start = clock();
     std::sort(params.items.begin(), params.items.end(), my_comparator());
 
     int added_w = 0;
@@ -97,8 +100,10 @@ out_params *rucksack::greedy_algo(in_params *par) {
             items_to_go.push_back(item(params.items[i]));
         }
     }
-    out_params *outparams = new out_params("pervaya sortirovka", 0, added_w, added_c, items_to_go);
-    return outparams;
+    unsigned int end = clock();
+    return new out_params("Greedy algrithm", double(end - start) / CLOCKS_PER_SEC,
+                          added_w, added_c, items_to_go);
+
 }
 
 int main() {
