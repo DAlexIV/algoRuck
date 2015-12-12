@@ -53,22 +53,25 @@ std::vector<in_params> in_params::read_in_params_from_file() {
                 NT = atoi(line.c_str());
                 std::vector<in_params> result(NT);
             }
-            if (counter % 5 == 2)
+            if (counter % 4 == 2)
                 W = atoi(line.c_str());
-            if (counter % 5 == 3) {
+            if (counter % 4 == 3) {
                 N = atoi(line.c_str());
+                w.clear();
+                cost.clear();
+                items_res.clear();
                 std::vector<int> w(N);
                 std::vector<int> cost(N);
                 std::vector<item> items_res(N);
             }
-            if (counter % 5 == 4) {
+            if (counter % 4 == 0) {
                 std::vector<std::string> vec = split(line, ' ');
                 for (int i = 0; i < vec.size(); i++) {
 //cout « w.size();
                     w.push_back(atoi(vec[i].c_str()));
                 }
             }
-            if (counter % 5 == 0) {
+            if (counter % 4 == 1 && counter != 1) {
                 std::vector<std::string> vec = split(line, ' ');
                 for (int i = 0; i < vec.size(); i++) {
                     cost.push_back(atoi(vec[i].c_str()));

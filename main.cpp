@@ -39,7 +39,7 @@ out_params* rucksack::greedy_algo(in_params *par) {
             items_to_go.push_back(item(params.items[i]));
         }
     }
-    out_params *outparams = new out_params("pervaya sortirovka", 0, added_w, added_c, params.items);
+    out_params *outparams = new out_params("pervaya sortirovka", 0, added_w, added_c, items_to_go);
     return outparams;
 }
 void rucksack::test_one(int test_n, in_params* par, out_params* (*ptr)(in_params*)) {
