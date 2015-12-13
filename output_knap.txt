@@ -1,19 +1,26 @@
 Test 1
 Running over with recursion
-Time elapsed 0 seconds
+Time elapsed 2.7e-05 seconds
 Backpack weight 20
 Backpack cost 14
 {id = 1, w = 11, cost = 10}
 {id = 3, w = 9, cost = 4}
 Test 1
+Dynamic
+Time elapsed 3.6e-05 seconds
+Backpack weight 20
+Backpack cost 14
+{id = 3, w = 9, cost = 4}
+{id = 1, w = 11, cost = 10}
+Test 1
 Greedy algrithm
-Time elapsed 0 seconds
+Time elapsed 4e-06 seconds
 Backpack weight 12
 Backpack cost 11
 {id = 2, w = 12, cost = 11}
 Test 2
 Running over with recursion
-Time elapsed 0 seconds
+Time elapsed 0.000277 seconds
 Backpack weight 29
 Backpack cost 25
 {id = 0, w = 10, cost = 5}
@@ -22,88 +29,15 @@ Backpack cost 25
 {id = 5, w = 2, cost = 2}
 {id = 6, w = 10, cost = 10}
 Test 2
-Greedy algrithm
-Time elapsed 0 seconds
-Backpack weight 24
-Backpack cost 23
-{id = 4, w = 4, cost = 6}
-{id = 5, w = 2, cost = 2}
-{id = 6, w = 10, cost = 10}
-{id = 3, w = 3, cost = 2}
-{id = 2, w = 5, cost = 3}
-Test 3
-Running over with recursion
-Time elapsed 0 seconds
-Backpack weight 0
-Backpack cost 0
-Test 3
-Greedy algrithm
-Time elapsed 0 seconds
-Backpack weight 0
-Backpack cost 0
-Test 4
-Running over with recursion
-Time elapsed 2 seconds
-Backpack weight 120
-Backpack cost 645
-{id = 0, w = 1, cost = 50}
-{id = 1, w = 2, cost = 49}
-{id = 2, w = 3, cost = 48}
-{id = 3, w = 4, cost = 47}
-{id = 4, w = 5, cost = 46}
-{id = 5, w = 6, cost = 45}
-{id = 6, w = 7, cost = 44}
-{id = 7, w = 8, cost = 43}
-{id = 8, w = 9, cost = 42}
-{id = 9, w = 10, cost = 41}
-{id = 10, w = 11, cost = 40}
-{id = 11, w = 12, cost = 39}
-{id = 12, w = 13, cost = 38}
-{id = 13, w = 14, cost = 37}
-{id = 14, w = 15, cost = 36}
-Test 4
-Greedy algrithm
-Time elapsed 0 seconds
-Backpack weight 120
-Backpack cost 645
-{id = 0, w = 1, cost = 50}
-{id = 1, w = 2, cost = 49}
-{id = 2, w = 3, cost = 48}
-{id = 3, w = 4, cost = 47}
-{id = 4, w = 5, cost = 46}
-{id = 5, w = 6, cost = 45}
-{id = 6, w = 7, cost = 44}
-{id = 7, w = 8, cost = 43}
-{id = 8, w = 9, cost = 42}
-{id = 9, w = 10, cost = 41}
-{id = 10, w = 11, cost = 40}
-{id = 11, w = 12, cost = 39}
-{id = 12, w = 13, cost = 38}
-{id = 13, w = 14, cost = 37}
-{id = 14, w = 15, cost = 36}
-Test 1
-Running over with recursion
-Time elapsed 2.6e-05 seconds
-Backpack weight 20
-Backpack cost 14
-{id = 1, w = 11, cost = 10}
-{id = 3, w = 9, cost = 4}
-Test 1
-Greedy algrithm
-Time elapsed 3e-06 seconds
-Backpack weight 12
-Backpack cost 11
-{id = 2, w = 12, cost = 11}
-Test 2
-Running over with recursion
-Time elapsed 0.000192 seconds
+Dynamic
+Time elapsed 6.2e-05 seconds
 Backpack weight 29
 Backpack cost 25
-{id = 0, w = 10, cost = 5}
-{id = 3, w = 3, cost = 2}
-{id = 4, w = 4, cost = 6}
-{id = 5, w = 2, cost = 2}
 {id = 6, w = 10, cost = 10}
+{id = 5, w = 2, cost = 2}
+{id = 4, w = 4, cost = 6}
+{id = 3, w = 3, cost = 2}
+{id = 0, w = 10, cost = 5}
 Test 2
 Greedy algrithm
 Time elapsed 6e-06 seconds
@@ -120,13 +54,18 @@ Time elapsed 8e-06 seconds
 Backpack weight 0
 Backpack cost 0
 Test 3
+Dynamic
+Time elapsed 2.2e-05 seconds
+Backpack weight 0
+Backpack cost 0
+Test 3
 Greedy algrithm
 Time elapsed 2e-06 seconds
 Backpack weight 0
 Backpack cost 0
 Test 4
 Running over with recursion
-Time elapsed 2.57218 seconds
+Time elapsed 3.0872 seconds
 Backpack weight 120
 Backpack cost 645
 {id = 0, w = 1, cost = 50}
@@ -145,8 +84,28 @@ Backpack cost 645
 {id = 13, w = 14, cost = 37}
 {id = 14, w = 15, cost = 36}
 Test 4
+Dynamic
+Time elapsed 0.000285 seconds
+Backpack weight 120
+Backpack cost 645
+{id = 14, w = 15, cost = 36}
+{id = 13, w = 14, cost = 37}
+{id = 12, w = 13, cost = 38}
+{id = 11, w = 12, cost = 39}
+{id = 10, w = 11, cost = 40}
+{id = 9, w = 10, cost = 41}
+{id = 8, w = 9, cost = 42}
+{id = 7, w = 8, cost = 43}
+{id = 6, w = 7, cost = 44}
+{id = 5, w = 6, cost = 45}
+{id = 4, w = 5, cost = 46}
+{id = 3, w = 4, cost = 47}
+{id = 2, w = 3, cost = 48}
+{id = 1, w = 2, cost = 49}
+{id = 0, w = 1, cost = 50}
+Test 4
 Greedy algrithm
-Time elapsed 8e-06 seconds
+Time elapsed 7e-06 seconds
 Backpack weight 120
 Backpack cost 645
 {id = 0, w = 1, cost = 50}

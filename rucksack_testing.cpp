@@ -16,7 +16,7 @@ void rucksack::test() {
     for (int i = 0; i < data.size(); ++i) {
         //test_one(i, &data[i], &run_over_iter);
         test_one(i, &data[i], &run_over_rec);
-        //test_one(i, &data[i], &dynamic);
+        test_one(i, &data[i], &dynamic);
         test_one(i, &data[i], &greedy_algo);
     }
 

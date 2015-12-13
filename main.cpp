@@ -75,6 +75,76 @@ out_params *rucksack::run_over_rec(in_params *par) {
 }
 
 out_params *rucksack::dynamic(in_params *par) {
+    class dynamic_implementation {
+    private:
+        in_params *par;
+        std::vector<std::vector<int>> table = std::vector<std::vector<int>>();
+        std::vector<item> items_to_go = std::vector<item>();
+        int weight = 0;
+
+        void step_into(int i, int j) {
+            if (table[i][j] == 0)
+                return;
+            else if (table[i][j] == table[i - 1][j])
+                step_into(i - 1, j);
+            else {
+                items_to_go.push_back(par->items[i - 1]);
+                weight += par->items[i - 1].getW();
+                step_into(i - 1, j - par->items[i - 1].getW());
+            }
+        }
+
+
+    public:
+        dynamic_implementation(in_params *par) {
+            this->par = par;
+        }
+
+        void prepare() {
+            for (int i = 0; i <= par->n; ++i) {
+                table.push_back(std::vector<int>());
+                for (int j = 0; j <= par->overall_w; ++j) {
+                    table[i].push_back(0);
+                }
+            }
+
+            for (int i = 0; i <= par->n; ++i)
+                for (int j = 0; j <= par->overall_w; ++j) {
+                    if (i != 0 && j != 0) {
+                        int upper_value = table[i - 1][j];
+                        int candidate = std::max(par->items[i - 1].getCost()
+                                                 + table[i - 1][j - par->items[i - 1].getW()], table[i - 1][j]);
+                        table[i][j] = par->items[i - 1].getW() <= j ? candidate : upper_value;
+                    }
+                }
+        }
+
+
+        void fill() {
+            step_into(par->n, par->overall_w);
+        }
+
+
+        std::vector<item> getItems_to_go()  {
+            return items_to_go;
+        }
+
+        int getWeight()  {
+            return weight;
+        }
+        int getCost() {
+            return table[par->n][par->overall_w];
+        }
+    };
+    unsigned int start = clock();
+    dynamic_implementation dyn = dynamic_implementation(par);
+    dyn.prepare();
+    dyn.fill();
+    unsigned int end = clock();
+
+    return new out_params("Dynamic", double(end - start) / CLOCKS_PER_SEC,
+                          dyn.getWeight(), dyn.getCost(), dyn.getItems_to_go());
+
 
 }
 
