@@ -7,6 +7,7 @@
 #include <vector>
 #include <string>
 #include "item.h"
+#include "in_params.h"
 
 /**
  * Represents output parameters for each test
@@ -18,6 +19,7 @@ public:
     int weight; // Weight gained
     int cost; // Cost gained
     std::vector<item> items; // Items
+
     /**
      * Default constructor
      */
@@ -33,6 +35,9 @@ public:
     * int n - number of tests
     */
     static void write_number_test_to_file(int n);
+
+
+
 };
 
 #endif //RRRRRR_OUT_PARAMS_H

@@ -1,125 +1,1091 @@
 Test 1
-Running over with recursion
-Time elapsed 2.7e-05 seconds
-Backpack weight 20
-Backpack cost 14
-{id = 1, w = 11, cost = 10}
-{id = 3, w = 9, cost = 4}
+Iteration algorithm
+Time elapsed 4.3e-05 seconds
+Rucksack weight 17
+Rucksack cost 41
+{id = 0, w = 17, cost = 41}
+Test 1
+Recursive algorithm
+Time elapsed 2.4e-05 seconds
+Rucksack weight 17
+Rucksack cost 41
+{id = 0, w = 17, cost = 41}
 Test 1
 Dynamic
-Time elapsed 3.6e-05 seconds
-Backpack weight 20
-Backpack cost 14
-{id = 3, w = 9, cost = 4}
-{id = 1, w = 11, cost = 10}
+Time elapsed 0.000106 seconds
+Rucksack weight 17
+Rucksack cost 41
+{id = 0, w = 17, cost = 41}
 Test 1
-Greedy algrithm
-Time elapsed 4e-06 seconds
-Backpack weight 12
-Backpack cost 11
-{id = 2, w = 12, cost = 11}
-Test 2
-Running over with recursion
-Time elapsed 0.000277 seconds
-Backpack weight 29
-Backpack cost 25
-{id = 0, w = 10, cost = 5}
-{id = 3, w = 3, cost = 2}
-{id = 4, w = 4, cost = 6}
-{id = 5, w = 2, cost = 2}
-{id = 6, w = 10, cost = 10}
-Test 2
-Dynamic
-Time elapsed 6.2e-05 seconds
-Backpack weight 29
-Backpack cost 25
-{id = 6, w = 10, cost = 10}
-{id = 5, w = 2, cost = 2}
-{id = 4, w = 4, cost = 6}
-{id = 3, w = 3, cost = 2}
-{id = 0, w = 10, cost = 5}
-Test 2
 Greedy algrithm
 Time elapsed 6e-06 seconds
-Backpack weight 24
-Backpack cost 23
-{id = 4, w = 4, cost = 6}
-{id = 5, w = 2, cost = 2}
-{id = 6, w = 10, cost = 10}
-{id = 3, w = 3, cost = 2}
-{id = 2, w = 5, cost = 3}
-Test 3
-Running over with recursion
+Rucksack weight 17
+Rucksack cost 41
+{id = 0, w = 17, cost = 41}
+Test 2
+Iteration algorithm
+Time elapsed 3.8e-05 seconds
+Rucksack weight 88
+Rucksack cost 67
+{id = 0, w = 44, cost = 25}
+{id = 1, w = 44, cost = 42}
+Test 2
+Recursive algorithm
+Time elapsed 3.3e-05 seconds
+Rucksack weight 88
+Rucksack cost 67
+{id = 0, w = 44, cost = 25}
+{id = 1, w = 44, cost = 42}
+Test 2
+Dynamic
+Time elapsed 0.000854 seconds
+Rucksack weight 88
+Rucksack cost 67
+{id = 1, w = 44, cost = 42}
+{id = 0, w = 44, cost = 25}
+Test 2
+Greedy algrithm
 Time elapsed 8e-06 seconds
-Backpack weight 0
-Backpack cost 0
+Rucksack weight 88
+Rucksack cost 67
+{id = 1, w = 44, cost = 42}
+{id = 0, w = 44, cost = 25}
+Test 3
+Iteration algorithm
+Time elapsed 4.3e-05 seconds
+Rucksack weight 0
+Rucksack cost 0
+Test 3
+Recursive algorithm
+Time elapsed 1.9e-05 seconds
+Rucksack weight 0
+Rucksack cost 0
 Test 3
 Dynamic
-Time elapsed 2.2e-05 seconds
-Backpack weight 0
-Backpack cost 0
+Time elapsed 2.1e-05 seconds
+Rucksack weight 0
+Rucksack cost 0
 Test 3
 Greedy algrithm
-Time elapsed 2e-06 seconds
-Backpack weight 0
-Backpack cost 0
+Time elapsed 6e-06 seconds
+Rucksack weight 0
+Rucksack cost 0
 Test 4
-Running over with recursion
-Time elapsed 3.0872 seconds
-Backpack weight 120
-Backpack cost 645
-{id = 0, w = 1, cost = 50}
-{id = 1, w = 2, cost = 49}
-{id = 2, w = 3, cost = 48}
-{id = 3, w = 4, cost = 47}
-{id = 4, w = 5, cost = 46}
-{id = 5, w = 6, cost = 45}
-{id = 6, w = 7, cost = 44}
-{id = 7, w = 8, cost = 43}
-{id = 8, w = 9, cost = 42}
-{id = 9, w = 10, cost = 41}
-{id = 10, w = 11, cost = 40}
-{id = 11, w = 12, cost = 39}
-{id = 12, w = 13, cost = 38}
-{id = 13, w = 14, cost = 37}
-{id = 14, w = 15, cost = 36}
+Iteration algorithm
+Time elapsed 6.5e-05 seconds
+Rucksack weight 76
+Rucksack cost 130
+{id = 0, w = 28, cost = 32}
+{id = 1, w = 17, cost = 23}
+{id = 2, w = 3, cost = 43}
+{id = 3, w = 28, cost = 32}
+Test 4
+Recursive algorithm
+Time elapsed 0.000106 seconds
+Rucksack weight 76
+Rucksack cost 130
+{id = 0, w = 28, cost = 32}
+{id = 1, w = 17, cost = 23}
+{id = 2, w = 3, cost = 43}
+{id = 3, w = 28, cost = 32}
 Test 4
 Dynamic
-Time elapsed 0.000285 seconds
-Backpack weight 120
-Backpack cost 645
-{id = 14, w = 15, cost = 36}
-{id = 13, w = 14, cost = 37}
-{id = 12, w = 13, cost = 38}
-{id = 11, w = 12, cost = 39}
-{id = 10, w = 11, cost = 40}
-{id = 9, w = 10, cost = 41}
-{id = 8, w = 9, cost = 42}
-{id = 7, w = 8, cost = 43}
-{id = 6, w = 7, cost = 44}
-{id = 5, w = 6, cost = 45}
-{id = 4, w = 5, cost = 46}
-{id = 3, w = 4, cost = 47}
-{id = 2, w = 3, cost = 48}
-{id = 1, w = 2, cost = 49}
-{id = 0, w = 1, cost = 50}
+Time elapsed 0.000436 seconds
+Rucksack weight 76
+Rucksack cost 130
+{id = 3, w = 28, cost = 32}
+{id = 2, w = 3, cost = 43}
+{id = 1, w = 17, cost = 23}
+{id = 0, w = 28, cost = 32}
 Test 4
+Greedy algrithm
+Time elapsed 1.3e-05 seconds
+Rucksack weight 76
+Rucksack cost 130
+{id = 2, w = 3, cost = 43}
+{id = 1, w = 17, cost = 23}
+{id = 0, w = 28, cost = 32}
+{id = 3, w = 28, cost = 32}
+Test 5
+Iteration algorithm
+Time elapsed 0.000135 seconds
+Rucksack weight 151
+Rucksack cost 138
+{id = 0, w = 22, cost = 2}
+{id = 1, w = 16, cost = 24}
+{id = 2, w = 47, cost = 37}
+{id = 3, w = 30, cost = 30}
+{id = 4, w = 36, cost = 45}
+Test 5
+Recursive algorithm
+Time elapsed 0.000178 seconds
+Rucksack weight 151
+Rucksack cost 138
+{id = 0, w = 22, cost = 2}
+{id = 1, w = 16, cost = 24}
+{id = 2, w = 47, cost = 37}
+{id = 3, w = 30, cost = 30}
+{id = 4, w = 36, cost = 45}
+Test 5
+Dynamic
+Time elapsed 0.001408 seconds
+Rucksack weight 151
+Rucksack cost 138
+{id = 4, w = 36, cost = 45}
+{id = 3, w = 30, cost = 30}
+{id = 2, w = 47, cost = 37}
+{id = 1, w = 16, cost = 24}
+{id = 0, w = 22, cost = 2}
+Test 5
+Greedy algrithm
+Time elapsed 1.3e-05 seconds
+Rucksack weight 151
+Rucksack cost 138
+{id = 1, w = 16, cost = 24}
+{id = 4, w = 36, cost = 45}
+{id = 3, w = 30, cost = 30}
+{id = 2, w = 47, cost = 37}
+{id = 0, w = 22, cost = 2}
+Test 6
+Iteration algorithm
+Time elapsed 0.000188 seconds
+Rucksack weight 206
+Rucksack cost 178
+{id = 0, w = 49, cost = 17}
+{id = 1, w = 31, cost = 46}
+{id = 2, w = 17, cost = 46}
+{id = 3, w = 18, cost = 27}
+{id = 4, w = 43, cost = 27}
+{id = 5, w = 48, cost = 15}
+Test 6
+Recursive algorithm
+Time elapsed 0.000368 seconds
+Rucksack weight 206
+Rucksack cost 178
+{id = 0, w = 49, cost = 17}
+{id = 1, w = 31, cost = 46}
+{id = 2, w = 17, cost = 46}
+{id = 3, w = 18, cost = 27}
+{id = 4, w = 43, cost = 27}
+{id = 5, w = 48, cost = 15}
+Test 6
+Dynamic
+Time elapsed 0.000905 seconds
+Rucksack weight 206
+Rucksack cost 178
+{id = 5, w = 48, cost = 15}
+{id = 4, w = 43, cost = 27}
+{id = 3, w = 18, cost = 27}
+{id = 2, w = 17, cost = 46}
+{id = 1, w = 31, cost = 46}
+{id = 0, w = 49, cost = 17}
+Test 6
+Greedy algrithm
+Time elapsed 1.4e-05 seconds
+Rucksack weight 206
+Rucksack cost 178
+{id = 2, w = 17, cost = 46}
+{id = 3, w = 18, cost = 27}
+{id = 1, w = 31, cost = 46}
+{id = 4, w = 43, cost = 27}
+{id = 0, w = 49, cost = 17}
+{id = 5, w = 48, cost = 15}
+Test 7
+Iteration algorithm
+Time elapsed 0.000335 seconds
+Rucksack weight 76
+Rucksack cost 46
+{id = 0, w = 5, cost = 4}
+{id = 3, w = 31, cost = 16}
+{id = 4, w = 40, cost = 26}
+Test 7
+Recursive algorithm
+Time elapsed 0.000276 seconds
+Rucksack weight 76
+Rucksack cost 46
+{id = 0, w = 5, cost = 4}
+{id = 3, w = 31, cost = 16}
+{id = 4, w = 40, cost = 26}
+Test 7
+Dynamic
+Time elapsed 0.000272 seconds
+Rucksack weight 76
+Rucksack cost 46
+{id = 4, w = 40, cost = 26}
+{id = 3, w = 31, cost = 16}
+{id = 0, w = 5, cost = 4}
+Test 7
+Greedy algrithm
+Time elapsed 1.1e-05 seconds
+Rucksack weight 62
+Rucksack cost 41
+{id = 0, w = 5, cost = 4}
+{id = 4, w = 40, cost = 26}
+{id = 6, w = 17, cost = 11}
+Test 8
+Iteration algorithm
+Time elapsed 0.000674 seconds
+Rucksack weight 214
+Rucksack cost 201
+{id = 0, w = 25, cost = 32}
+{id = 1, w = 30, cost = 39}
+{id = 2, w = 41, cost = 39}
+{id = 3, w = 14, cost = 37}
+{id = 4, w = 48, cost = 14}
+{id = 5, w = 9, cost = 12}
+{id = 6, w = 38, cost = 19}
+{id = 7, w = 9, cost = 9}
+Test 8
+Recursive algorithm
+Time elapsed 0.001268 seconds
+Rucksack weight 214
+Rucksack cost 201
+{id = 0, w = 25, cost = 32}
+{id = 1, w = 30, cost = 39}
+{id = 2, w = 41, cost = 39}
+{id = 3, w = 14, cost = 37}
+{id = 4, w = 48, cost = 14}
+{id = 5, w = 9, cost = 12}
+{id = 6, w = 38, cost = 19}
+{id = 7, w = 9, cost = 9}
+Test 8
+Dynamic
+Time elapsed 0.001505 seconds
+Rucksack weight 214
+Rucksack cost 201
+{id = 7, w = 9, cost = 9}
+{id = 6, w = 38, cost = 19}
+{id = 5, w = 9, cost = 12}
+{id = 4, w = 48, cost = 14}
+{id = 3, w = 14, cost = 37}
+{id = 2, w = 41, cost = 39}
+{id = 1, w = 30, cost = 39}
+{id = 0, w = 25, cost = 32}
+Test 8
+Greedy algrithm
+Time elapsed 1.5e-05 seconds
+Rucksack weight 214
+Rucksack cost 201
+{id = 3, w = 14, cost = 37}
+{id = 5, w = 9, cost = 12}
+{id = 1, w = 30, cost = 39}
+{id = 0, w = 25, cost = 32}
+{id = 7, w = 9, cost = 9}
+{id = 2, w = 41, cost = 39}
+{id = 6, w = 38, cost = 19}
+{id = 4, w = 48, cost = 14}
+Test 9
+Iteration algorithm
+Time elapsed 0.001489 seconds
+Rucksack weight 137
+Rucksack cost 197
+{id = 0, w = 2, cost = 4}
+{id = 1, w = 28, cost = 11}
+{id = 2, w = 20, cost = 40}
+{id = 3, w = 21, cost = 6}
+{id = 4, w = 4, cost = 18}
+{id = 5, w = 16, cost = 46}
+{id = 6, w = 0, cost = 21}
+{id = 7, w = 32, cost = 28}
+{id = 8, w = 14, cost = 23}
+Test 9
+Recursive algorithm
+Time elapsed 0.002496 seconds
+Rucksack weight 137
+Rucksack cost 197
+{id = 0, w = 2, cost = 4}
+{id = 1, w = 28, cost = 11}
+{id = 2, w = 20, cost = 40}
+{id = 3, w = 21, cost = 6}
+{id = 4, w = 4, cost = 18}
+{id = 5, w = 16, cost = 46}
+{id = 6, w = 0, cost = 21}
+{id = 7, w = 32, cost = 28}
+{id = 8, w = 14, cost = 23}
+Test 9
+Dynamic
+Time elapsed 0.002028 seconds
+Rucksack weight 137
+Rucksack cost 197
+{id = 8, w = 14, cost = 23}
+{id = 7, w = 32, cost = 28}
+{id = 6, w = 0, cost = 21}
+{id = 5, w = 16, cost = 46}
+{id = 4, w = 4, cost = 18}
+{id = 3, w = 21, cost = 6}
+{id = 2, w = 20, cost = 40}
+{id = 1, w = 28, cost = 11}
+{id = 0, w = 2, cost = 4}
+Test 9
+Greedy algrithm
+Time elapsed 1.7e-05 seconds
+Rucksack weight 137
+Rucksack cost 197
+{id = 6, w = 0, cost = 21}
+{id = 4, w = 4, cost = 18}
+{id = 5, w = 16, cost = 46}
+{id = 0, w = 2, cost = 4}
+{id = 2, w = 20, cost = 40}
+{id = 8, w = 14, cost = 23}
+{id = 7, w = 32, cost = 28}
+{id = 1, w = 28, cost = 11}
+{id = 3, w = 21, cost = 6}
+Test 10
+Iteration algorithm
+Time elapsed 0.002273 seconds
+Rucksack weight 194
+Rucksack cost 171
+{id = 0, w = 3, cost = 2}
+{id = 1, w = 32, cost = 5}
+{id = 2, w = 12, cost = 15}
+{id = 3, w = 14, cost = 40}
+{id = 4, w = 41, cost = 29}
+{id = 5, w = 24, cost = 1}
+{id = 6, w = 13, cost = 4}
+{id = 7, w = 14, cost = 35}
+{id = 8, w = 38, cost = 32}
+{id = 9, w = 3, cost = 8}
+Test 10
+Recursive algorithm
+Time elapsed 0.002309 seconds
+Rucksack weight 194
+Rucksack cost 171
+{id = 0, w = 3, cost = 2}
+{id = 1, w = 32, cost = 5}
+{id = 2, w = 12, cost = 15}
+{id = 3, w = 14, cost = 40}
+{id = 4, w = 41, cost = 29}
+{id = 5, w = 24, cost = 1}
+{id = 6, w = 13, cost = 4}
+{id = 7, w = 14, cost = 35}
+{id = 8, w = 38, cost = 32}
+{id = 9, w = 3, cost = 8}
+Test 10
+Dynamic
+Time elapsed 0.000309 seconds
+Rucksack weight 194
+Rucksack cost 171
+{id = 9, w = 3, cost = 8}
+{id = 8, w = 38, cost = 32}
+{id = 7, w = 14, cost = 35}
+{id = 6, w = 13, cost = 4}
+{id = 5, w = 24, cost = 1}
+{id = 4, w = 41, cost = 29}
+{id = 3, w = 14, cost = 40}
+{id = 2, w = 12, cost = 15}
+{id = 1, w = 32, cost = 5}
+{id = 0, w = 3, cost = 2}
+Test 10
 Greedy algrithm
 Time elapsed 7e-06 seconds
-Backpack weight 120
-Backpack cost 645
-{id = 0, w = 1, cost = 50}
-{id = 1, w = 2, cost = 49}
-{id = 2, w = 3, cost = 48}
-{id = 3, w = 4, cost = 47}
-{id = 4, w = 5, cost = 46}
-{id = 5, w = 6, cost = 45}
-{id = 6, w = 7, cost = 44}
-{id = 7, w = 8, cost = 43}
-{id = 8, w = 9, cost = 42}
-{id = 9, w = 10, cost = 41}
-{id = 10, w = 11, cost = 40}
-{id = 11, w = 12, cost = 39}
-{id = 12, w = 13, cost = 38}
-{id = 13, w = 14, cost = 37}
-{id = 14, w = 15, cost = 36}
+Rucksack weight 194
+Rucksack cost 171
+{id = 3, w = 14, cost = 40}
+{id = 9, w = 3, cost = 8}
+{id = 7, w = 14, cost = 35}
+{id = 2, w = 12, cost = 15}
+{id = 8, w = 38, cost = 32}
+{id = 4, w = 41, cost = 29}
+{id = 0, w = 3, cost = 2}
+{id = 6, w = 13, cost = 4}
+{id = 1, w = 32, cost = 5}
+{id = 5, w = 24, cost = 1}
+Test 11
+Iteration algorithm
+Time elapsed 0.002234 seconds
+Rucksack weight 64
+Rucksack cost 150
+{id = 0, w = 0, cost = 18}
+{id = 1, w = 5, cost = 32}
+{id = 4, w = 1, cost = 8}
+{id = 7, w = 33, cost = 39}
+{id = 8, w = 22, cost = 42}
+{id = 9, w = 3, cost = 11}
+Test 11
+Recursive algorithm
+Time elapsed 0.001054 seconds
+Rucksack weight 64
+Rucksack cost 150
+{id = 0, w = 0, cost = 18}
+{id = 1, w = 5, cost = 32}
+{id = 4, w = 1, cost = 8}
+{id = 7, w = 33, cost = 39}
+{id = 8, w = 22, cost = 42}
+{id = 9, w = 3, cost = 11}
+Test 11
+Dynamic
+Time elapsed 0.000132 seconds
+Rucksack weight 64
+Rucksack cost 150
+{id = 9, w = 3, cost = 11}
+{id = 8, w = 22, cost = 42}
+{id = 7, w = 33, cost = 39}
+{id = 4, w = 1, cost = 8}
+{id = 1, w = 5, cost = 32}
+{id = 0, w = 0, cost = 18}
+Test 11
+Greedy algrithm
+Time elapsed 8e-06 seconds
+Rucksack weight 57
+Rucksack cost 141
+{id = 0, w = 0, cost = 18}
+{id = 4, w = 1, cost = 8}
+{id = 1, w = 5, cost = 32}
+{id = 9, w = 3, cost = 11}
+{id = 10, w = 14, cost = 27}
+{id = 8, w = 22, cost = 42}
+{id = 6, w = 12, cost = 3}
+Test 12
+Iteration algorithm
+Time elapsed 0.004936 seconds
+Rucksack weight 116
+Rucksack cost 249
+{id = 0, w = 31, cost = 36}
+{id = 2, w = 8, cost = 34}
+{id = 4, w = 18, cost = 28}
+{id = 5, w = 11, cost = 46}
+{id = 6, w = 17, cost = 37}
+{id = 8, w = 14, cost = 20}
+{id = 9, w = 17, cost = 48}
+Test 12
+Recursive algorithm
+Time elapsed 0.003618 seconds
+Rucksack weight 116
+Rucksack cost 249
+{id = 0, w = 31, cost = 36}
+{id = 2, w = 8, cost = 34}
+{id = 4, w = 18, cost = 28}
+{id = 5, w = 11, cost = 46}
+{id = 6, w = 17, cost = 37}
+{id = 8, w = 14, cost = 20}
+{id = 9, w = 17, cost = 48}
+Test 12
+Dynamic
+Time elapsed 0.000182 seconds
+Rucksack weight 116
+Rucksack cost 249
+{id = 9, w = 17, cost = 48}
+{id = 8, w = 14, cost = 20}
+{id = 6, w = 17, cost = 37}
+{id = 5, w = 11, cost = 46}
+{id = 4, w = 18, cost = 28}
+{id = 2, w = 8, cost = 34}
+{id = 0, w = 31, cost = 36}
+Test 12
+Greedy algrithm
+Time elapsed 8e-06 seconds
+Rucksack weight 116
+Rucksack cost 249
+{id = 2, w = 8, cost = 34}
+{id = 5, w = 11, cost = 46}
+{id = 9, w = 17, cost = 48}
+{id = 6, w = 17, cost = 37}
+{id = 4, w = 18, cost = 28}
+{id = 8, w = 14, cost = 20}
+{id = 0, w = 31, cost = 36}
+Test 13
+Iteration algorithm
+Time elapsed 0.010186 seconds
+Rucksack weight 313
+Rucksack cost 380
+{id = 0, w = 38, cost = 37}
+{id = 2, w = 1, cost = 41}
+{id = 3, w = 35, cost = 27}
+{id = 4, w = 15, cost = 22}
+{id = 5, w = 45, cost = 29}
+{id = 6, w = 4, cost = 17}
+{id = 7, w = 30, cost = 30}
+{id = 8, w = 26, cost = 32}
+{id = 9, w = 21, cost = 29}
+{id = 10, w = 30, cost = 44}
+{id = 11, w = 49, cost = 29}
+{id = 12, w = 19, cost = 43}
+Test 13
+Recursive algorithm
+Time elapsed 0.017416 seconds
+Rucksack weight 313
+Rucksack cost 380
+{id = 0, w = 38, cost = 37}
+{id = 2, w = 1, cost = 41}
+{id = 3, w = 35, cost = 27}
+{id = 4, w = 15, cost = 22}
+{id = 5, w = 45, cost = 29}
+{id = 6, w = 4, cost = 17}
+{id = 7, w = 30, cost = 30}
+{id = 8, w = 26, cost = 32}
+{id = 9, w = 21, cost = 29}
+{id = 10, w = 30, cost = 44}
+{id = 11, w = 49, cost = 29}
+{id = 12, w = 19, cost = 43}
+Test 13
+Dynamic
+Time elapsed 0.000421 seconds
+Rucksack weight 313
+Rucksack cost 380
+{id = 12, w = 19, cost = 43}
+{id = 11, w = 49, cost = 29}
+{id = 10, w = 30, cost = 44}
+{id = 9, w = 21, cost = 29}
+{id = 8, w = 26, cost = 32}
+{id = 7, w = 30, cost = 30}
+{id = 6, w = 4, cost = 17}
+{id = 5, w = 45, cost = 29}
+{id = 4, w = 15, cost = 22}
+{id = 3, w = 35, cost = 27}
+{id = 2, w = 1, cost = 41}
+{id = 0, w = 38, cost = 37}
+Test 13
+Greedy algrithm
+Time elapsed 1.1e-05 seconds
+Rucksack weight 313
+Rucksack cost 380
+{id = 2, w = 1, cost = 41}
+{id = 6, w = 4, cost = 17}
+{id = 12, w = 19, cost = 43}
+{id = 4, w = 15, cost = 22}
+{id = 10, w = 30, cost = 44}
+{id = 9, w = 21, cost = 29}
+{id = 8, w = 26, cost = 32}
+{id = 7, w = 30, cost = 30}
+{id = 0, w = 38, cost = 37}
+{id = 3, w = 35, cost = 27}
+{id = 5, w = 45, cost = 29}
+{id = 11, w = 49, cost = 29}
+Test 14
+Iteration algorithm
+Time elapsed 0.021257 seconds
+Rucksack weight 286
+Rucksack cost 302
+{id = 0, w = 25, cost = 44}
+{id = 1, w = 34, cost = 10}
+{id = 2, w = 4, cost = 7}
+{id = 3, w = 27, cost = 5}
+{id = 4, w = 47, cost = 49}
+{id = 5, w = 4, cost = 32}
+{id = 6, w = 1, cost = 49}
+{id = 7, w = 49, cost = 40}
+{id = 8, w = 40, cost = 9}
+{id = 9, w = 1, cost = 3}
+{id = 10, w = 33, cost = 29}
+{id = 12, w = 21, cost = 25}
+Test 14
+Recursive algorithm
+Time elapsed 0.032159 seconds
+Rucksack weight 286
+Rucksack cost 302
+{id = 0, w = 25, cost = 44}
+{id = 1, w = 34, cost = 10}
+{id = 2, w = 4, cost = 7}
+{id = 3, w = 27, cost = 5}
+{id = 4, w = 47, cost = 49}
+{id = 5, w = 4, cost = 32}
+{id = 6, w = 1, cost = 49}
+{id = 7, w = 49, cost = 40}
+{id = 8, w = 40, cost = 9}
+{id = 9, w = 1, cost = 3}
+{id = 10, w = 33, cost = 29}
+{id = 12, w = 21, cost = 25}
+Test 14
+Dynamic
+Time elapsed 0.000428 seconds
+Rucksack weight 286
+Rucksack cost 302
+{id = 12, w = 21, cost = 25}
+{id = 10, w = 33, cost = 29}
+{id = 9, w = 1, cost = 3}
+{id = 8, w = 40, cost = 9}
+{id = 7, w = 49, cost = 40}
+{id = 6, w = 1, cost = 49}
+{id = 5, w = 4, cost = 32}
+{id = 4, w = 47, cost = 49}
+{id = 3, w = 27, cost = 5}
+{id = 2, w = 4, cost = 7}
+{id = 1, w = 34, cost = 10}
+{id = 0, w = 25, cost = 44}
+Test 14
+Greedy algrithm
+Time elapsed 1e-05 seconds
+Rucksack weight 286
+Rucksack cost 302
+{id = 6, w = 1, cost = 49}
+{id = 5, w = 4, cost = 32}
+{id = 9, w = 1, cost = 3}
+{id = 0, w = 25, cost = 44}
+{id = 2, w = 4, cost = 7}
+{id = 12, w = 21, cost = 25}
+{id = 4, w = 47, cost = 49}
+{id = 10, w = 33, cost = 29}
+{id = 7, w = 49, cost = 40}
+{id = 1, w = 34, cost = 10}
+{id = 8, w = 40, cost = 9}
+{id = 3, w = 27, cost = 5}
+Test 15
+Iteration algorithm
+Time elapsed 0.044253 seconds
+Rucksack weight 140
+Rucksack cost 335
+{id = 0, w = 5, cost = 39}
+{id = 1, w = 13, cost = 12}
+{id = 3, w = 46, cost = 44}
+{id = 4, w = 13, cost = 26}
+{id = 6, w = 10, cost = 28}
+{id = 7, w = 3, cost = 40}
+{id = 8, w = 0, cost = 16}
+{id = 9, w = 0, cost = 11}
+{id = 10, w = 34, cost = 44}
+{id = 11, w = 5, cost = 11}
+{id = 13, w = 9, cost = 18}
+{id = 14, w = 2, cost = 46}
+Test 15
+Recursive algorithm
+Time elapsed 0.073368 seconds
+Rucksack weight 140
+Rucksack cost 335
+{id = 0, w = 5, cost = 39}
+{id = 1, w = 13, cost = 12}
+{id = 3, w = 46, cost = 44}
+{id = 4, w = 13, cost = 26}
+{id = 6, w = 10, cost = 28}
+{id = 7, w = 3, cost = 40}
+{id = 8, w = 0, cost = 16}
+{id = 9, w = 0, cost = 11}
+{id = 10, w = 34, cost = 44}
+{id = 11, w = 5, cost = 11}
+{id = 13, w = 9, cost = 18}
+{id = 14, w = 2, cost = 46}
+Test 15
+Dynamic
+Time elapsed 0.000249 seconds
+Rucksack weight 140
+Rucksack cost 335
+{id = 14, w = 2, cost = 46}
+{id = 13, w = 9, cost = 18}
+{id = 11, w = 5, cost = 11}
+{id = 10, w = 34, cost = 44}
+{id = 9, w = 0, cost = 11}
+{id = 8, w = 0, cost = 16}
+{id = 7, w = 3, cost = 40}
+{id = 6, w = 10, cost = 28}
+{id = 4, w = 13, cost = 26}
+{id = 3, w = 46, cost = 44}
+{id = 1, w = 13, cost = 12}
+{id = 0, w = 5, cost = 39}
+Test 15
+Greedy algrithm
+Time elapsed 1.1e-05 seconds
+Rucksack weight 140
+Rucksack cost 335
+{id = 8, w = 0, cost = 16}
+{id = 9, w = 0, cost = 11}
+{id = 14, w = 2, cost = 46}
+{id = 7, w = 3, cost = 40}
+{id = 0, w = 5, cost = 39}
+{id = 6, w = 10, cost = 28}
+{id = 11, w = 5, cost = 11}
+{id = 4, w = 13, cost = 26}
+{id = 13, w = 9, cost = 18}
+{id = 10, w = 34, cost = 44}
+{id = 3, w = 46, cost = 44}
+{id = 1, w = 13, cost = 12}
+Test 16
+Iteration algorithm
+Time elapsed 0.096668 seconds
+Rucksack weight 414
+Rucksack cost 360
+{id = 0, w = 33, cost = 48}
+{id = 1, w = 6, cost = 4}
+{id = 2, w = 30, cost = 31}
+{id = 3, w = 26, cost = 36}
+{id = 4, w = 34, cost = 40}
+{id = 5, w = 45, cost = 22}
+{id = 6, w = 30, cost = 7}
+{id = 7, w = 48, cost = 4}
+{id = 8, w = 21, cost = 44}
+{id = 9, w = 5, cost = 15}
+{id = 10, w = 32, cost = 2}
+{id = 11, w = 24, cost = 35}
+{id = 12, w = 5, cost = 15}
+{id = 14, w = 46, cost = 44}
+{id = 15, w = 29, cost = 13}
+Test 16
+Recursive algorithm
+Time elapsed 0.160614 seconds
+Rucksack weight 454
+Rucksack cost 360
+{id = 0, w = 33, cost = 48}
+{id = 1, w = 6, cost = 4}
+{id = 2, w = 30, cost = 31}
+{id = 3, w = 26, cost = 36}
+{id = 4, w = 34, cost = 40}
+{id = 5, w = 45, cost = 22}
+{id = 6, w = 30, cost = 7}
+{id = 7, w = 48, cost = 4}
+{id = 8, w = 21, cost = 44}
+{id = 9, w = 5, cost = 15}
+{id = 10, w = 32, cost = 2}
+{id = 11, w = 24, cost = 35}
+{id = 12, w = 5, cost = 15}
+{id = 13, w = 40, cost = 0}
+{id = 14, w = 46, cost = 44}
+{id = 15, w = 29, cost = 13}
+Test 16
+Dynamic
+Time elapsed 0.001212 seconds
+Rucksack weight 414
+Rucksack cost 360
+{id = 15, w = 29, cost = 13}
+{id = 14, w = 46, cost = 44}
+{id = 12, w = 5, cost = 15}
+{id = 11, w = 24, cost = 35}
+{id = 10, w = 32, cost = 2}
+{id = 9, w = 5, cost = 15}
+{id = 8, w = 21, cost = 44}
+{id = 7, w = 48, cost = 4}
+{id = 6, w = 30, cost = 7}
+{id = 5, w = 45, cost = 22}
+{id = 4, w = 34, cost = 40}
+{id = 3, w = 26, cost = 36}
+{id = 2, w = 30, cost = 31}
+{id = 1, w = 6, cost = 4}
+{id = 0, w = 33, cost = 48}
+Test 16
+Greedy algrithm
+Time elapsed 1.1e-05 seconds
+Rucksack weight 454
+Rucksack cost 360
+{id = 9, w = 5, cost = 15}
+{id = 12, w = 5, cost = 15}
+{id = 8, w = 21, cost = 44}
+{id = 11, w = 24, cost = 35}
+{id = 0, w = 33, cost = 48}
+{id = 3, w = 26, cost = 36}
+{id = 4, w = 34, cost = 40}
+{id = 2, w = 30, cost = 31}
+{id = 14, w = 46, cost = 44}
+{id = 1, w = 6, cost = 4}
+{id = 5, w = 45, cost = 22}
+{id = 15, w = 29, cost = 13}
+{id = 6, w = 30, cost = 7}
+{id = 7, w = 48, cost = 4}
+{id = 10, w = 32, cost = 2}
+{id = 13, w = 40, cost = 0}
+Test 17
+Iteration algorithm
+Time elapsed 0.206804 seconds
+Rucksack weight 444
+Rucksack cost 404
+{id = 0, w = 42, cost = 39}
+{id = 1, w = 8, cost = 24}
+{id = 2, w = 41, cost = 26}
+{id = 3, w = 40, cost = 47}
+{id = 4, w = 0, cost = 28}
+{id = 5, w = 43, cost = 24}
+{id = 6, w = 41, cost = 19}
+{id = 7, w = 23, cost = 24}
+{id = 8, w = 12, cost = 46}
+{id = 9, w = 39, cost = 37}
+{id = 10, w = 27, cost = 3}
+{id = 11, w = 24, cost = 1}
+{id = 12, w = 8, cost = 26}
+{id = 13, w = 34, cost = 10}
+{id = 14, w = 10, cost = 1}
+{id = 15, w = 25, cost = 9}
+{id = 16, w = 27, cost = 40}
+Test 17
+Recursive algorithm
+Time elapsed 0.31058 seconds
+Rucksack weight 444
+Rucksack cost 404
+{id = 0, w = 42, cost = 39}
+{id = 1, w = 8, cost = 24}
+{id = 2, w = 41, cost = 26}
+{id = 3, w = 40, cost = 47}
+{id = 4, w = 0, cost = 28}
+{id = 5, w = 43, cost = 24}
+{id = 6, w = 41, cost = 19}
+{id = 7, w = 23, cost = 24}
+{id = 8, w = 12, cost = 46}
+{id = 9, w = 39, cost = 37}
+{id = 10, w = 27, cost = 3}
+{id = 11, w = 24, cost = 1}
+{id = 12, w = 8, cost = 26}
+{id = 13, w = 34, cost = 10}
+{id = 14, w = 10, cost = 1}
+{id = 15, w = 25, cost = 9}
+{id = 16, w = 27, cost = 40}
+Test 17
+Dynamic
+Time elapsed 0.001466 seconds
+Rucksack weight 444
+Rucksack cost 404
+{id = 16, w = 27, cost = 40}
+{id = 15, w = 25, cost = 9}
+{id = 14, w = 10, cost = 1}
+{id = 13, w = 34, cost = 10}
+{id = 12, w = 8, cost = 26}
+{id = 11, w = 24, cost = 1}
+{id = 10, w = 27, cost = 3}
+{id = 9, w = 39, cost = 37}
+{id = 8, w = 12, cost = 46}
+{id = 7, w = 23, cost = 24}
+{id = 6, w = 41, cost = 19}
+{id = 5, w = 43, cost = 24}
+{id = 4, w = 0, cost = 28}
+{id = 3, w = 40, cost = 47}
+{id = 2, w = 41, cost = 26}
+{id = 1, w = 8, cost = 24}
+{id = 0, w = 42, cost = 39}
+Test 17
+Greedy algrithm
+Time elapsed 1.4e-05 seconds
+Rucksack weight 444
+Rucksack cost 404
+{id = 4, w = 0, cost = 28}
+{id = 8, w = 12, cost = 46}
+{id = 12, w = 8, cost = 26}
+{id = 1, w = 8, cost = 24}
+{id = 16, w = 27, cost = 40}
+{id = 3, w = 40, cost = 47}
+{id = 7, w = 23, cost = 24}
+{id = 9, w = 39, cost = 37}
+{id = 0, w = 42, cost = 39}
+{id = 2, w = 41, cost = 26}
+{id = 5, w = 43, cost = 24}
+{id = 6, w = 41, cost = 19}
+{id = 15, w = 25, cost = 9}
+{id = 13, w = 34, cost = 10}
+{id = 10, w = 27, cost = 3}
+{id = 14, w = 10, cost = 1}
+{id = 11, w = 24, cost = 1}
+Test 18
+Iteration algorithm
+Time elapsed 0.43022 seconds
+Rucksack weight 444
+Rucksack cost 392
+{id = 0, w = 0, cost = 22}
+{id = 1, w = 9, cost = 3}
+{id = 2, w = 17, cost = 14}
+{id = 3, w = 33, cost = 17}
+{id = 4, w = 38, cost = 18}
+{id = 5, w = 33, cost = 26}
+{id = 6, w = 43, cost = 41}
+{id = 7, w = 16, cost = 14}
+{id = 8, w = 15, cost = 2}
+{id = 9, w = 8, cost = 32}
+{id = 10, w = 35, cost = 44}
+{id = 11, w = 28, cost = 10}
+{id = 12, w = 21, cost = 48}
+{id = 13, w = 48, cost = 15}
+{id = 14, w = 47, cost = 22}
+{id = 15, w = 11, cost = 13}
+{id = 16, w = 27, cost = 41}
+{id = 17, w = 15, cost = 10}
+Test 18
+Recursive algorithm
+Time elapsed 0.628022 seconds
+Rucksack weight 444
+Rucksack cost 392
+{id = 0, w = 0, cost = 22}
+{id = 1, w = 9, cost = 3}
+{id = 2, w = 17, cost = 14}
+{id = 3, w = 33, cost = 17}
+{id = 4, w = 38, cost = 18}
+{id = 5, w = 33, cost = 26}
+{id = 6, w = 43, cost = 41}
+{id = 7, w = 16, cost = 14}
+{id = 8, w = 15, cost = 2}
+{id = 9, w = 8, cost = 32}
+{id = 10, w = 35, cost = 44}
+{id = 11, w = 28, cost = 10}
+{id = 12, w = 21, cost = 48}
+{id = 13, w = 48, cost = 15}
+{id = 14, w = 47, cost = 22}
+{id = 15, w = 11, cost = 13}
+{id = 16, w = 27, cost = 41}
+{id = 17, w = 15, cost = 10}
+Test 18
+Dynamic
+Time elapsed 0.001323 seconds
+Rucksack weight 444
+Rucksack cost 392
+{id = 17, w = 15, cost = 10}
+{id = 16, w = 27, cost = 41}
+{id = 15, w = 11, cost = 13}
+{id = 14, w = 47, cost = 22}
+{id = 13, w = 48, cost = 15}
+{id = 12, w = 21, cost = 48}
+{id = 11, w = 28, cost = 10}
+{id = 10, w = 35, cost = 44}
+{id = 9, w = 8, cost = 32}
+{id = 8, w = 15, cost = 2}
+{id = 7, w = 16, cost = 14}
+{id = 6, w = 43, cost = 41}
+{id = 5, w = 33, cost = 26}
+{id = 4, w = 38, cost = 18}
+{id = 3, w = 33, cost = 17}
+{id = 2, w = 17, cost = 14}
+{id = 1, w = 9, cost = 3}
+{id = 0, w = 0, cost = 22}
+Test 18
+Greedy algrithm
+Time elapsed 1.3e-05 seconds
+Rucksack weight 444
+Rucksack cost 392
+{id = 0, w = 0, cost = 22}
+{id = 9, w = 8, cost = 32}
+{id = 12, w = 21, cost = 48}
+{id = 16, w = 27, cost = 41}
+{id = 10, w = 35, cost = 44}
+{id = 15, w = 11, cost = 13}
+{id = 6, w = 43, cost = 41}
+{id = 7, w = 16, cost = 14}
+{id = 2, w = 17, cost = 14}
+{id = 5, w = 33, cost = 26}
+{id = 17, w = 15, cost = 10}
+{id = 3, w = 33, cost = 17}
+{id = 4, w = 38, cost = 18}
+{id = 14, w = 47, cost = 22}
+{id = 11, w = 28, cost = 10}
+{id = 1, w = 9, cost = 3}
+{id = 13, w = 48, cost = 15}
+{id = 8, w = 15, cost = 2}
+Test 19
+Iteration algorithm
+Time elapsed 0.867531 seconds
+Rucksack weight 109
+Rucksack cost 275
+{id = 2, w = 9, cost = 44}
+{id = 5, w = 0, cost = 25}
+{id = 6, w = 0, cost = 16}
+{id = 8, w = 21, cost = 20}
+{id = 9, w = 20, cost = 23}
+{id = 10, w = 14, cost = 49}
+{id = 11, w = 28, cost = 44}
+{id = 14, w = 6, cost = 35}
+{id = 17, w = 11, cost = 19}
+Test 19
+Recursive algorithm
+Time elapsed 0.068465 seconds
+Rucksack weight 109
+Rucksack cost 275
+{id = 2, w = 9, cost = 44}
+{id = 5, w = 0, cost = 25}
+{id = 6, w = 0, cost = 16}
+{id = 8, w = 21, cost = 20}
+{id = 9, w = 20, cost = 23}
+{id = 10, w = 14, cost = 49}
+{id = 11, w = 28, cost = 44}
+{id = 14, w = 6, cost = 35}
+{id = 17, w = 11, cost = 19}
+Test 19
+Dynamic
+Time elapsed 0.000371 seconds
+Rucksack weight 109
+Rucksack cost 275
+{id = 17, w = 11, cost = 19}
+{id = 14, w = 6, cost = 35}
+{id = 11, w = 28, cost = 44}
+{id = 10, w = 14, cost = 49}
+{id = 9, w = 20, cost = 23}
+{id = 8, w = 21, cost = 20}
+{id = 6, w = 0, cost = 16}
+{id = 5, w = 0, cost = 25}
+{id = 2, w = 9, cost = 44}
+Test 19
+Greedy algrithm
+Time elapsed 9e-06 seconds
+Rucksack weight 108
+Rucksack cost 267
+{id = 5, w = 0, cost = 25}
+{id = 6, w = 0, cost = 16}
+{id = 14, w = 6, cost = 35}
+{id = 2, w = 9, cost = 44}
+{id = 10, w = 14, cost = 49}
+{id = 17, w = 11, cost = 19}
+{id = 11, w = 28, cost = 44}
+{id = 0, w = 25, cost = 30}
+{id = 12, w = 15, cost = 5}
+Test 20
+Iteration algorithm
+Time elapsed 1.82934 seconds
+Rucksack weight 410
+Rucksack cost 539
+{id = 0, w = 30, cost = 38}
+{id = 1, w = 26, cost = 45}
+{id = 2, w = 28, cost = 48}
+{id = 3, w = 30, cost = 19}
+{id = 4, w = 9, cost = 49}
+{id = 5, w = 6, cost = 1}
+{id = 6, w = 0, cost = 40}
+{id = 7, w = 47, cost = 33}
+{id = 8, w = 31, cost = 20}
+{id = 9, w = 23, cost = 37}
+{id = 10, w = 33, cost = 37}
+{id = 13, w = 46, cost = 49}
+{id = 14, w = 38, cost = 38}
+{id = 17, w = 20, cost = 13}
+{id = 18, w = 38, cost = 36}
+{id = 19, w = 5, cost = 36}
+Test 20
+Recursive algorithm
+Time elapsed 2.59031 seconds
+Rucksack weight 410
+Rucksack cost 539
+{id = 0, w = 30, cost = 38}
+{id = 1, w = 26, cost = 45}
+{id = 2, w = 28, cost = 48}
+{id = 3, w = 30, cost = 19}
+{id = 4, w = 9, cost = 49}
+{id = 5, w = 6, cost = 1}
+{id = 6, w = 0, cost = 40}
+{id = 7, w = 47, cost = 33}
+{id = 8, w = 31, cost = 20}
+{id = 9, w = 23, cost = 37}
+{id = 10, w = 33, cost = 37}
+{id = 13, w = 46, cost = 49}
+{id = 14, w = 38, cost = 38}
+{id = 17, w = 20, cost = 13}
+{id = 18, w = 38, cost = 36}
+{id = 19, w = 5, cost = 36}
+Test 20
+Dynamic
+Time elapsed 0.000786 seconds
+Rucksack weight 410
+Rucksack cost 539
+{id = 19, w = 5, cost = 36}
+{id = 18, w = 38, cost = 36}
+{id = 17, w = 20, cost = 13}
+{id = 14, w = 38, cost = 38}
+{id = 13, w = 46, cost = 49}
+{id = 10, w = 33, cost = 37}
+{id = 9, w = 23, cost = 37}
+{id = 8, w = 31, cost = 20}
+{id = 7, w = 47, cost = 33}
+{id = 6, w = 0, cost = 40}
+{id = 5, w = 6, cost = 1}
+{id = 4, w = 9, cost = 49}
+{id = 3, w = 30, cost = 19}
+{id = 2, w = 28, cost = 48}
+{id = 1, w = 26, cost = 45}
+{id = 0, w = 30, cost = 38}
+Test 20
+Greedy algrithm
+Time elapsed 1e-05 seconds
+Rucksack weight 410
+Rucksack cost 539
+{id = 6, w = 0, cost = 40}
+{id = 19, w = 5, cost = 36}
+{id = 4, w = 9, cost = 49}
+{id = 1, w = 26, cost = 45}
+{id = 2, w = 28, cost = 48}
+{id = 9, w = 23, cost = 37}
+{id = 0, w = 30, cost = 38}
+{id = 10, w = 33, cost = 37}
+{id = 13, w = 46, cost = 49}
+{id = 14, w = 38, cost = 38}
+{id = 18, w = 38, cost = 36}
+{id = 7, w = 47, cost = 33}
+{id = 17, w = 20, cost = 13}
+{id = 8, w = 31, cost = 20}
+{id = 3, w = 30, cost = 19}
+{id = 5, w = 6, cost = 1}

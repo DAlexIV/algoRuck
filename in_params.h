@@ -4,6 +4,7 @@
 
 #ifndef RRRRRR_IN_PARAMS_H
 #define RRRRRR_IN_PARAMS_H
+
 #include <vector>
 #include <string>
 #include <fstream>
@@ -28,7 +29,7 @@ public:
     /**
      * Copy constructor
      */
-    in_params(const in_params* copy);
+    in_params(const in_params *copy);
 
     /**
      * Reads ALL params from file
@@ -36,8 +37,7 @@ public:
      */
     static std::vector<in_params> read_in_params_from_file();
 
+
 };
-
-
 
 #endif //RRRRRR_IN_PARAMS_H

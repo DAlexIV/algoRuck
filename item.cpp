@@ -3,3 +3,5 @@
 //
 
 #include "item.h"
+
+// There is no complex implementation

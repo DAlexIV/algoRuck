@@ -16,6 +16,7 @@
 class rucksack {
     std::vector<in_params> data; // All tests
 public:
+    static std::string path;
     /**
      * Method that uses iterable bruteforce over with callback
      * in_params *par - reference to input params for this test run
